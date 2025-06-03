@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By your ΛPΣX",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --MEGA",
+    "start": "pm2 start index.js --deep-monitoring --attach --name MEGA",
     "stop": "pm2 stop MEGA ",
     "restart": "pm2 restart MEGA"
   },
